@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Tienda</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"/>
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="estilo.css">
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+<body>
+    <header class="navegacion">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <!-- Toggle button -->
+          <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
+            <img src="imagenes/logoheader.png" alt="Error al cargar la imagen"> <h1>Atlas Fútbol Club S.A.</h1>
+          </div>
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarRightAlignExample" >
+            <!-- Left links -->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a id="apasar" class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+              </li>              
+              <li class="nav-item">
+                <a id="apasar" class="nav-link active" aria-current="page" href="Formulario_club_Futbol.html">INSCRIPCIÓN</a>
+              </li>              
+              <li class="nav-item">
+                <a id="apasar" class="nav-link active" aria-current="page" href="#">TIENDA</a>
+              </li>
+            </ul>
+            <!-- Left links -->
+          </div>
+          <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+</header>
+
+<main>
+  <section class="banertienda">
+    <div id="carouselExampleInterval" class="carousel slide" data-mdb-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-mdb-interval="2000">
+          <img src="imagenes/generalstock.png" class="d-block w-100" alt="stock"/>
+        </div>
+        <div class="carousel-item" data-mdb-interval="2000">
+          <a href="https://www.wplay.co/"><img src="imagenes/pub.jpg" class="d-block w-100" alt="wplay"></a>
+        </div>
+        <div class="carousel-item" data-mdb-interval="2000">
+          <img src="imagenes/cantera.jpg" class="d-block w-100" alt="cantera"/>
+        </div>
+      </div>
+      <button class="carousel-control-prev" data-mdb-target="#carouselExampleInterval" type="button" data-mdb-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" data-mdb-target="#carouselExampleInterval" type="button" data-mdb-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+  <section>
+      <div class="row">
+        <div class="col-sm-6 col-lg-8">
+          <div class="imagentienda">
+            <h2 class="titulo-ropa">Indumentaria 2023</h2>
+            <img src="imagenes/indumentaria.jpg" alt="Indumentaria">
+          </div>
+        </div>
+        <div class="col-6 col-lg-4">
+              <div class="imagentienda">
+                <h2 class="titulo-ropa">Marca oficial</h2><br> 
+                <a href="https://www.puma-colombia.com.co/"><img src="imagenes/puma.png" alt="logopuma"></a>
+                <br> <br>
+                <center><p>© 2023 Copyright: Puma</p></center>
+              </div>
+        </div>
+      </div>
+
+      <section class="camisas">
+        <div class="row">
+          <div class="col-6 col-sm-4">
+              <div class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="imagenes/local.jpg" class="img-fluid"/>
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Uniforme de  local</h5>
+                  <p class="card-text">Conjunto completo.</p>
+                  <a href="#!" class="btn btn-primary"><i class="fas fa-cart-shopping fa-2x"></i>  Comprar</a>
+                </div>
+              </div>
+          </div>
+  
+  
+          <div class="col-6 col-sm-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="imagenes/visita.jpg" class="img-fluid"/>
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Uniforme de visitante</h5>
+                <p class="card-text">Conjunto completo.</p>
+                <a href="#!" class="btn btn-primary"><i class="fas fa-cart-shopping fa-2x"></i>  Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="imagenes/limitada.jpg" class="img-fluid"/>
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Edición especial</h5>
+                <p class="card-text">Nuestra indumentaria de aniversario.</p>
+                <a href="#!" class="btn btn-primary"><i class="fas fa-cart-shopping fa-2x"></i>  Comprar</a>
+              </div>
+            </div>
+          </div>
+      </section>
+  </section>
+
+
+</main>
+      <!-- Footer -->
+  <footer class="text-center text-lg-start bg-white text-muted">
+      
+          <!-- Section: Links  -->
+          <section class="info-foot">
+            <div class="container text-center text-md-start mt-5">
+              <!-- Grid row -->
+              <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                  <!-- Content -->
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    <i class="fa-sharp fa-regular fa-futbol"></i> ATLAS FUTBOL CLUB
+                  </h6>
+                  <img src="imagenes/logo.png" alt="Error al cargar imagen">
+                  <p class="texto-foot">
+                    !Mas que un equipo somos una familia!
+                  </p>
+                </div>
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    Categorías
+                  </h6>
+                  <p>
+                    <a href="#!" class="text-reset">Fútbol Masculino</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Fútbol Femenino</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Divisiones Menores</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Socios</a>
+                  </p>
+                </div>
+      
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                  <p><i class="fas fa-home me-3 text-secondary"></i>Bogotá, Colombia</p>
+                  <p>
+                    <i class="fas fa-envelope me-3 text-secondary"></i>atlasfc@gmail.com
+                  </p>
+                  <p><i class="fas fa-phone me-3 text-secondary"></i>+ 57 315 567 88 67</p>
+                  <p><i class="fas fa-print me-3 text-secondary"></i>+ 01 234 567 89</p>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </div>
+          </section>
+          <!-- Section: Links  -->
+          <!-- Copyright -->
+          <div class="text-center p-4" id="text-copy">
+            © 2023 Copyright: Atlas FC
+          </div>
+          <!-- Copyright -->
+  </footer>
+      <!-- Footer -->
+    <!-- MDB NO BORRAR-->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>

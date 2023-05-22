@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción - Atlas FC</title>   
+    <!--Bootstrap-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"/>
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+        <header class="navegacion">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <!-- Container wrapper -->
+                  <div class="container-fluid">
+                    <!-- Toggle button -->
+                    <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
+                      <img src="imagenes/logoheader.png" alt="Error al cargar la imagen"> <h1>Atlas Fútbol Club S.A.</h1>
+                    </div>
+                    <!-- Collapsible wrapper -->
+                    <div class="collapse navbar-collapse" id="navbarRightAlignExample" >
+                      <!-- Left links -->
+                      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a id="apasar" class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                        </li>              
+                        <li class="nav-item">
+                          <a id="apasar" class="nav-link active" aria-current="page" href="#">INSCRIPCIÓN</a>
+                        </li>              
+                        <li class="nav-item">
+                          <a id="apasar" class="nav-link active" aria-current="page" href="tienda.html">TIENDA</a>
+                        </li>
+                      </ul>
+                      <!-- Left links -->
+                    </div>
+                    <!-- Collapsible wrapper -->
+                  </div>
+                  <!-- Container wrapper -->
+                </nav>
+              </header>
+
+    <main class="main-formulario">
+        <div class="encabezado">
+                <h1 id="titulo-form"> <center>Bievenido al Atlas Futbol Club </center></h1>
+            </div> <br> 
+            <div class="escudo">
+                <img src="imagenes/balon.jpg" alt="Error al cargar la imagen" width="450" height="300">
+                <img src="imagenes/escudo.jpg" alt="Error al cargar la imagen" width="600" height="300">
+                <img src="imagenes/gol.jpg" alt="Error al cargar la imagen" width="450" height="300" >
+            </div> <br> 
+            <div>
+            <form action="">
+                        <div>
+                                <center><h2>Complete Todos Los Campos</h2></center>
+
+                        </div>
+                
+                <div class="form">
+                        <div class="grupo">
+                                <h3>Tipo de Tramite</h3>
+                                <label for="tramite">Tramite: </label>  <br> <br>
+                                <select id="hobbies">
+                                    <option disabled selected>Escoga una opción</option>
+                                    <option>Inscripción</option>
+                                    <option>Re inscripción</option>
+                                </select> <br> <br> <br>
+                                <h3>Datos Personales</h3> 
+                        </div>
+                        <div class="grupo">
+                                <input class="input1" type="text" name=""  id="" required> <span class="barra"></span>
+                                <label class="label1">Nombres</label>
+                        </div>
+                        <div class="grupo">
+                                <input class="input1" type="text" id=""  name="" required> <span class="barra"></span>
+                                <label class="label1">Apellidos</label>
+                        </div>             
+                        <div class="grupo">
+                                <input class="input1" type="number" id="" required> <span class="barra"></span>
+                                <label class="label1">Número de Documento</label>
+                        </div>    
+                        <div class="grupo">
+                                <label>Sexo:</label> <br> <br>
+                                <input type="radio" id="F" name="genero"> <label for="F">Femenino</label>
+                                <input type="radio" id="M" name="genero"> <label for="M">Masculino </label> 
+                        </div>         
+                        <div class="grupo">
+                                <input class="input1" type="number" id="" required> <span class="barra"></span>
+                                <label class="label1">Edad</label>
+                        </div> 
+                        <div class="grupo">
+                                <input class="input1" type="date" id="" required> <span class="barra"></span>
+                                <label class="label1">Fecha de Nacimineto</label>
+                        </div>             
+                        <div class="grupo">
+                                <input  class="input1" type="text" id="" required> <span class="barra"></span>
+                                <label class="label1">Lugar de Nacimiento (Sector)</label>
+                        </div> 
+                        <div class="grupo">
+                                <input  class="input1" type="text" id="" required> <span class="barra"></span>
+                                <label class="label1">Ciudad</label>
+                        </div> 
+                        <div class="grupo">
+                                <label for="hobbies">Departamento:</label> <br> <br>
+                                <select id="hobbies">
+                                    <option disabled selected>Escoga una opción</option> <!--Para que no sea elegido - solo texto-->
+                                    <option value = "Amazonas">Amazonas</option>
+                                    <option value = "Antioquia">Antioquia</option>
+                                    <option value = "Arauca">Arauca</option>
+                                    <option value = "Atlántico">Atlántico</option>
+                                    <option value = "Bolívar">Bolívar</option>
+                                    <option value = "Boyacá">Boyacá</option>
+                                                <option value = "Caldas">Caldas</option>
+                                    <option value = "Caquetá">Caquetá</option>
+                                    <option value = "Casanare">Casanare</option>
+                                    <option value = "Cauca">Cauca</option>
+                                    <option value = "Cesar">Cesar</option>
+                                    <option value = "Chocó">Chocó</option>		            
+                                    <option value = "Córdoba">Córdoba</option>
+                                    <option value = "Cundinamarca">Cundinamarca</option>
+                                    <option value = "Guainía">Guainía</option>
+                                                <option value = "Guaviare">Guaviare</option>
+                                    <option value = "Huila">Huila</option>
+                                    <option value = "La Guajira">La Guajira</option>
+                                    <option value = "Magdalena">Magdalena</option>
+                                                <option value = "Meta">Meta</option>
+                                    <option value = "Nariño">Nariño</option>
+                                    <option value = "Norte de Santander">Norte de Santander</option>
+                                    <option value = "Putumayo">Putumayo</option>                
+                                    <option value = "Quindío">Quindío</option>  
+                                                <option value = "Risaralda">Risaralda</option>
+                                    <option value = "San Andrés y Providencia">San Andrés y Providencia</option>
+                                    <option value = "Santander">Santander</option>
+                                    <option value = "Sucre">Sucre</option>
+                                    <option value = "Tolima">Tolima</option>
+                                    <option value = "Valle del Cauca">Valle del Cauca</option>
+                                    <option value = "Vaupés">Vaupés</option>
+                                    <option value = "Vichada">Vichada</option>
+                                </select>
+                        </div>
+                        <div class="grupo">
+                                <input  class="input1" type="text" id="" required> <span class="barra"></span>
+                                <label class="label1">Dirección</label>
+                        </div> 
+                        <div class="grupo">
+                                <input  class="input1" type="tel" id="" required> <span class="barra"></span>
+                                <label class="label1">Telèfono</label>
+                        </div> 
+                        <div class="grupo">
+                                <input class="input1" type="email" id="" required> <span class="barra"></span>
+                                <label class="label1">Correo Electrònico</label> <br>
+                        </div> 
+                        <div class="grupo">
+                                <h3>Registro de Salud</h3>
+                                <label for="sanguineo">Grupo Sanguíneo:</label>  <br> <br>
+                                <select id="hobbies">
+                                    <option disabled selected>Escoga una opción</option>
+                                    <option>A+</option>
+                                    <option>A-</option>
+                                    <option>B+</option>
+                                    <option>B-</option>
+                                    <option>AB+</option>
+                                    <option>AB-</option>
+                                    <option>O+</option>
+                                    <option>O-</option>
+                                </select>
+                        </div>
+                        <div class="grupo">
+                                <label>¿Sufre algún padecimiento físico?:</label> <br> <br>
+                                <input type="radio" id="si" name="res"> <label for="si">Si</label>
+                                <input type="radio" id="no" name="res"> <label for="no">No</label> 
+                        </div> 
+                        <div class="grupo">
+                                <input class="input1" type="text" id="" required> <span class="barra"></span>
+                                <label class="label1">Especifique:</label>
+                        </div> 
+                        <div class="grupo">
+                                <label>¿Esta bajo algún tratamiento médico?:</label> <br> <br>
+                                <input type="radio" id="si" name="rst"> <label for="si">Si</label>
+                                <input type="radio" id="no" name="rst"> <label for="no">No</label> 
+                        </div> 
+                        <div class="grupo">
+                                <input class="input1" type="text" id="" required> <span class="barra"></span>
+                                <label class="label1">Especifique si tiene algún tratamiento:</label>
+                        </div> 
+                        <div class="grupo">
+                                <input class="input1" type="text" id="" required> <span class="barra"></span>
+                                <label class="label1">Especifique la forma de suministro:</label> <br> <br>
+                                <h3>Información Para Casos de Emergencia</h3> 
+                        </div> 
+                        <div class="grupo">
+                                <input class="input1" type="text" id="" required> <span class="barra"></span>
+                                <label class="label1">Nombre de Familiar Responsable</label>
+                        </div> 
+                        <div class="grupo">
+                                <input class="input1" type="text" id="" required> <span class="barra"></span>
+                                <label class="label1">Apellido de un Familiar Responsable</label>
+                        </div> 
+                        <div class="grupo">
+                                <input class="input1" type="text" id="" required> <span class="barra"></span>
+                                <label class="label1">Parentesco</label>
+                        </div> 
+                        <div class="grupo">
+                                <input class="input1" type="number" id="" required> <span class="barra"></span>
+                                <label class="label1">Teléfono del Familiar Responsable</label>
+                        </div> 
+                        <div class="grupo">
+                                <input class="input1" type="number" id="" required> <span class="barra"></span>
+                                <label class="label1">Correo Electrònico del Familiar Responsable</label>
+                        </div> 
+                        <div class="grupo">
+                                <input class="input1" type="text" id="" required> <span class="barra"></span>
+                                <label class="label1">Dirección de Familiar Responsable</label> <br> <br>
+                                <h3>Soportes de Expedientes y Aspecto Legal</h3> 
+                        </div> 
+                        <div class="grupo">
+                                <input class="input1" type="file" id="" required> <span class="barra"></span>
+                                <label>Adjuntar Documento de Indentificación (En formato .pdf)</label>
+                        </div>
+                        <div class="grupo">
+                                <input class="input1" type="file" id="" required> <span class="barra"></span>
+                                <label>Adjuntar foto de perfil.</label>
+                        </div>
+                        <div class="grupo">
+                                <label>Responsabilidad Social: </label> <br> <br>
+                                <p>
+                                        Yo, <input type="text"> portador de la cédula de identidad número:
+                                        <input type="number"> declaro que conozco todos los
+                                        riesgos que involucran las actividades deportivas y que haré uso
+                                        de dichas instalaciones bajo mi única responsabilidad. Así mismo declaro
+                                        que exonero de 
+                                        toda responsabilidad Penal, Civil o Administrativa al
+                                        Club Atlas FC y la Alcaldía de Ipiales por hechos
+                                        ó accidentes ocurridos antes, durante y despues de la practica deportiva
+                                        ó recreativa que realice.
+                                </p>
+                        </div>
+                        <div>
+                                <center><input type="checkbox" name="pin" id="pin" /> <label for="pin">Acepto la Liberación de la Responsabilidad Social.</label></center>
+                        </div>
+                        <div class="grupo">
+                                <label>Aceptación Tratamiento de Datos:</label> <br> <br>
+                                <p>
+                                        Yo, <input type="text"> portador de la cédula de identidad número:
+                                        <input type="number">  autorizo al Club Atlas FC, a que conserven en ficheros
+                                        digitales y/o en cualquier otro soporte físico los datos 
+                                        personales que le han sido proporcionados de forma voluntaria.
+                                        Asimismo, el firmante declara conocer y aceptar las normas
+                                        generales de funcionamiento del club.
+                                        Por su parte el club informa al firmante que su información personal 
+                                        figura en sus oficinas, en las que podrá solicitar el contenido exacto de ella
+                                        y en donde podrá ejercer los derechos de rectificación, anulación
+                                        o modificación que pudiera corresponderle, así como a modificar
+                                        esta autorización en cualquier sentido.
+                        </div>
+                        <div>
+                                <center><input type="checkbox" name="pol" id="pol" /> <label for="pol">Acepto la Política de Privacidad.</label></center>
+                        </div>
+                
+                        
+                        <div class="grupo">
+                                <textarea id="area" rows="4" required></textarea><span class="barra"></span>
+                                <label class="label1">Solicitud Adicional / Comentarios</label>
+                        </div> <br>
+                        <button type="submit">Inscribirse</button>
+                </div>
+            </form>
+            </div>
+    </main>
+
+      <!-- Footer -->
+      <footer class="text-center text-lg-start bg-white text-muted">
+         <!-- Section: Social media -->
+         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" id="redes">
+                <!-- Left -->
+                <div class="me-5 d-none d-lg-block">
+                  <span>Síguenos en nuestras redes sociales para mas información:</span>
+                </div>
+                <div>
+                  <a href="https://es-la.facebook.com/" class="me-4 link-secondary">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="https://twitter.com/login" class="me-4 link-secondary">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="https://accounts.google.com/InteractiveLogin/signinchooser?ifkv=Af_xneFHt2UEPE5uK7R0uhr5I9-yfln_0qLU-r3uVp5jY9uKIveYLuX8KmBlfb72lNoVk7NI1Zwo&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="me-4 link-secondary">
+                    <i class="fab fa-google"></i>
+                  </a>
+                  <a href="https://www.instagram.com/" class="me-4 link-secondary">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/" class="me-4 link-secondary">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </div>
+                <!-- Right -->
+              </section>
+              <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="info-foot">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fa-sharp fa-regular fa-futbol"></i> ATLAS FUTBOL CLUB
+                </h6>
+                <img src="imagenes/logo.png" alt="Error al cargar imagen">
+                <p class="texto-foot">
+                  !Mas que un equipo somos una familia!
+                </p>
+              </div>
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Categorías
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Fútbol Masculino</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Fútbol Femenino</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Divisiones Menores</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Socios</a>
+                </p>
+              </div>
+    
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                <p><i class="fas fa-home me-3 text-secondary"></i>Bogotá, Colombia</p>
+                <p>
+                  <i class="fas fa-envelope me-3 text-secondary"></i>atlasfc@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3 text-secondary"></i>+ 57 315 567 88 67</p>
+                <p><i class="fas fa-print me-3 text-secondary"></i>+ 01 234 567 89</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+        <!-- Copyright -->
+        <div class="text-center p-4" id="text-copy">
+          © 2023 Copyright: Atlas FC
+        </div>
+        <!-- Copyright -->
+      </footer>
+    <!-- Footer -->
+</body>
+</html>

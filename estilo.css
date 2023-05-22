@@ -1,0 +1,323 @@
+header main footer h4{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h4{
+    font-weight: bold;
+}
+
+.navegacion{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.container-fluid{
+    background: #00943D;
+    color: #091e11;
+}
+
+#apasar:hover{
+
+    color: #81b595;
+
+}
+
+main{
+    background: #CCCCCC;
+    width: 100%;
+    position: relative;
+}
+
+
+.acerca{
+    padding: 3em 3em;
+    background: #CCCCCC;
+    width: 100%;
+    position: relative;
+}
+
+.img-acerca{
+    width: 35%;
+    float: left; /*posicionar la imagen a la izquierda con estilo de redondeado por el texto*/
+    margin: 0 20px 20px 0;
+    border-radius: 12px;
+    border: solid #18e715;
+}
+.parrafo-info{
+    font-size: 20px;
+    text-align:justify;
+}
+
+.accordion-button{
+    background: #0ba747;
+    color: #091e11;
+}
+.accordion-item{
+    color: #CCCCCC;
+    background: #091e11;
+}
+
+.card{
+    width: 80%;
+    position: relative;
+    margin: 2px auto 60px auto;
+    color: #091e11;
+}
+
+.card p{
+    text-align: justify;
+}
+
+.mapa-contenido iframe{
+    width: 100%;
+    position: relative;
+
+}
+
+.card-body a{ /*boton de maps*/
+    position: sticky;
+    width: 250px;
+    background: #0ba747;
+
+}
+
+.card-img-top{
+    height: 460px;
+    width: 400px;
+}
+
+.col-md-4:hover img{
+    -webkit-transform:scale(1.0);
+    transform:scale(1.3);
+}
+.col-md-4 {
+    overflow:hidden;
+}
+
+
+/*TIENDA*/
+
+.imagentienda img{
+    width: 100%;
+    border-radius: 12px;
+    border: 4px solid #18e715;
+}
+
+.imagentienda p{
+    color: #091e11;
+    font-size: 20px;
+}
+
+.banertienda{
+    width: 100%;
+    position: relative;
+    padding: 0 0 3em 0;
+}
+
+.titulo-ropa{
+    font-weight: bold;
+    text-align: center;
+    color: #113b21;
+}
+
+.row img{
+    transition: 900ms;
+    margin:  2px 0;
+}
+
+.row img:hover{
+    opacity: 70%;
+}
+
+.camisas{
+    margin-top: 2em;
+    background: #e2dcdc;
+}
+
+
+.card-body a{
+    font-size: 12px;
+}
+
+
+
+
+/*-----------------------------------------*/
+.info-foot{
+    background:#113b21;
+    padding: 0 auto;
+    display: inline-block;
+    width: 100%;
+    color: #CCCCCC;
+}
+
+#text-copy{
+    color: #CCCCCC;
+    background: #091e11;
+}
+
+#redes{
+    color: #CCCCCC;
+    background: #091e11;
+}
+
+.texto-foot{
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*ESTILO PARA EL FORMULARIO DE INSCRIPCION*/
+:root{
+    --colorTextos: #49454567; /*Se define variable el color del texto para el formulario como elemento raiz del formulario*/
+}
+
+.main-formulario{
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 40px 0;
+}
+
+#titulo-form{
+    text-shadow: 2px 2px 5px rgb(19, 62, 5); /*Efecto del titulo coloreado*/
+    font-weight: bold;
+    color: #091e11;
+}
+
+form{
+    background: #ECE9E6; 
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); 
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /*Combinacion del fondo del formulario*/
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 25px 0 rgba(39, 133, 56, 0.683);
+    width: 55%; /*Ubicacion del formulario*/
+    margin: 2px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.form{ /* Ancho entre los campos del formulario con el cuadro blanco*/
+   width: 80%;
+   margin: 0 auto;
+}
+
+
+form .grupo{ /*Ubicacion del los campos de la clase grupo dentro del formmulario, se ajusta al form */
+    position: relative; 
+    margin: 45px;
+}
+
+.encabezado { /*Franja del titulo del encabezado*/
+    padding: 30px 0 0 0;
+}
+
+.escudo { /*Ubicacion de las imagenes en el panel debajo del titulo, con borde del div y decoracion*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 5px 10px;
+    border: 15px groove;  /*Define el borde del div de las imagenes ridge groove*/
+    border-color:#0ba747;  color: rgb(0, 128, 0, 0.3);
+}
+
+.input1,textarea{ /*Propiedades de los campos pertenecientes a estas clases*/
+
+    background: none;
+    color: #c6c6c6;  
+    font-size: 18px;
+    padding: 5px 5px 5px 5px;  
+    display: block; /*establece los tipos de visualización interna y externa de un elemento. en este caso en bloque para que sea conforme al div padre*/
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--colorTextos);
+}
+
+input:focus,textarea:focus{ /*Al momento de dar click en los campos de estas clases de quite los bordes grises*/
+    outline: none;
+    color: rgb(94,93,93);
+}
+
+.input1:focus~.label1, .input1:valid~.label1, textarea:focus~.label1, textarea:valid~.label1 { /*Al dar click del input es el hermano del clase 
+    input entonces especifica que suba cuando a su hermano le de click*/
+    position: absolute; /*Se suben las barras al dar click*/
+    top: -14px; /*Cuando sube la barra del borde de los inputs en -14 pix*/
+    font-size: 12px;
+    color: #18e715; /*Cambia el color de la barra al subir la clase barra*/
+}
+
+.label1{ /*Propiedades de los labels sin accionar cone esta clase*/
+    color: var(--colorTextos);
+    font-size: 16px;
+    position: absolute; /*En todo el campo*/
+    left: 5px;
+    top: 10px;
+    transition: 0.3s ease all;
+    pointer-events: none; /*Debe ir requerido een el html para que pueda pintar del color luego*/
+}
+
+label{ /*Campos no pertenecientes a inputs*/
+    color: var(--colorTextos);
+    font-size: 16px;
+    
+}
+
+.barra{ /*Crea la clase barra */
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.input1:focus~.barra::before, textarea:focus~.textarea::before { /*Funcion para que al momento de dar click en la clase input1 se acciones la barra */
+    width: 104%; /*llene todo el campo horizontalmente*/
+}
+
+.barra::before{ /*Antes/Despues de dar click en el campo*/
+
+    content: ''; 
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    transition: 0.3s ease all;
+    left: 0%;
+}
+
+select{ /*fondo del la clase select*/
+
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 8px;
+}
+
+button{ /*Propiedades del boton*/
+
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: block;
+    width: 250px;
+    height: 40px;
+    border: none;
+    color: #FFF;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 10px auto;
+
+}
+
+.btn{
+    background: none;
+    position: absolute;
+    top: 0px; /*Superior*/
+    right: 30px; /*Derecha*/
+    width: 100px;
+}
+
+.grupo p{
+    text-align: justify;
+}
