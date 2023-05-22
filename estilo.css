@@ -94,6 +94,17 @@ main{
     overflow:hidden;
 }
 
+/*Modificando diseño del video */
+
+.video{
+    padding: 3em 3em;
+    background: #81b595;
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+
+
 
 /*TIENDA*/
 
