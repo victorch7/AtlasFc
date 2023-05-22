@@ -150,6 +150,20 @@ main{
     font-size: 12px;
 }
 
+/*Colocando diseño al formulario de novedades*/
+
+.novedades-tienda{
+    background-image: url(imagenes/escudo.jpg);
+    width: 100%;
+    position: relative;
+    padding: 2em;
+}
+
+.novedades-tienda button{
+    position: relative;
+}
+
+
 
 
 
