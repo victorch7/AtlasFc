@@ -150,7 +150,7 @@ main{
     font-size: 12px;
 }
 
-/*Colocando diseño al formulario de novedades*/
+/*Colocando diseño al formulario de novedades en tienda.html*/
 
 .novedades-tienda{
     background-image: url(imagenes/escudo.jpg);
@@ -163,9 +163,30 @@ main{
     position: relative;
 }
 
+/*Mejorando el diseño del formulario de novedades en el tienda.html*/
+
+.novedades-tienda button:hover{
+    opacity: 60%;
+}
 
 
+#form2Example1{
+    color: #CCCCCC;
+}
 
+.form-control{
+    padding: 0 2em;
+    position: relative;
+}
+
+.transparente{
+    background: none;
+    color: #091e11
+}
+
+.transparente label{
+    color: #091e11;
+}
 
 /*-----------------------------------------*/
 .info-foot{
